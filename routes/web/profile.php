@@ -9,7 +9,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'view_self_profile']);   
     Route::put('/profile', [ProfileController::class, 'update_self_profile']);   
 
-    Route::get('/dashboard', [DashboardController::class, 'view_dashboard']); 
+    Route::get('/dashboard', [ProfileController::class, 'view_dashboard']); 
 
     Route::get('/profiles', [ProfileController::class, 'list_profiles']);
     Route::get('/profiles/{profile_id}', [ProfileController::class, 'detail_profile']);

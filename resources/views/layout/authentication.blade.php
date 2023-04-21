@@ -9,6 +9,7 @@
     @vite('resources/js/app.js')
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LM63G0HR22"></script>
     <script>
@@ -27,7 +28,6 @@
 <body class="antialiased">
 
     @yield('content')
-    @include('layout.footer')
 
 </body>
 

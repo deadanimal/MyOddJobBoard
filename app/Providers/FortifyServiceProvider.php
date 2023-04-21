@@ -47,21 +47,7 @@ class FortifyServiceProvider extends ServiceProvider
         });
 
         Fortify::registerView(function (Request $request) {
-            if ($request->has('user_type')) {
-                if ($request->get('user_type') == 'employer') {
-                    $user_type = 'employer';    
-                } else {
-                    $user_type = 'worker';    
-                }
-            } else {
-                $user_type = 'worker';
-            }
-
-            if ($user_type == 'employee') {
-                return view('authentication.employer-register');
-            } else if ($user_type == 'worker') {
-                return view('authentication.worker-register');
-            }
+            return view('authentication.register');
             
         });
 

@@ -1,6 +1,9 @@
 @extends('layout.static')
 
 @section('content')
+    @include('layout.navbarStatic')
+
+
     <div class="bg-white">
 
         <div class="relative isolate pt-14">

@@ -11,11 +11,11 @@
             </div>
 
             <div class="pb-6">
-                <a href="/brands" class="text-sm leading-6 text-gray-600 hover:text-gray-900">For Brand</a>
+                <a href="/employers" class="text-sm leading-6 text-gray-600 hover:text-gray-900">For Employer</a>
             </div>
 
             <div class="pb-6">
-                <a href="/creators" class="text-sm leading-6 text-gray-600 hover:text-gray-900">For Creator</a>
+                <a href="/jobseekers" class="text-sm leading-6 text-gray-600 hover:text-gray-900">For Jobseeker</a>
             </div>
 
             <div class="pb-6">
