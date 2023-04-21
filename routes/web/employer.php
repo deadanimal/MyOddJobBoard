@@ -11,4 +11,5 @@ Route::middleware('auth')->group(function () {
     Route::get('/employers/{employer_id}', [EmployerController::class, 'detail_employer']);
     Route::post('/employers', [EmployerController::class, 'create_employer']);
     Route::put('/employers/{employer_id}', [EmployerController::class, 'update_employer']);
+    
 });
