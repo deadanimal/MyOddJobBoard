@@ -45,7 +45,7 @@ return new class extends Migration
             $table->unsignedBigInteger('employer_id')->nullable();
         });  
         
-        Schema::create('posts', function (Blueprint $table) {
+        Schema::create('profiles', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
 
